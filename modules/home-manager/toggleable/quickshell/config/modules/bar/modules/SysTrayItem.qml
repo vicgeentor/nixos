@@ -13,6 +13,8 @@ MouseArea {
 
   Layout.minimumHeight: Config.barModulesInnerHeight
   Layout.minimumWidth: Config.barModulesInnerHeight
+  Layout.maximumHeight: Config.barModulesInnerHeight
+  Layout.maximumWidth: Config.barModulesInnerHeight
 
   acceptedButtons: Qt.LeftButton | Qt.RightButton
   cursorShape: Qt.PointingHandCursor
