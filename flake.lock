@@ -892,13 +892,13 @@
       "locked": {
         "lastModified": 1764232805,
         "narHash": "sha256-oIVBilIstF/UTRQEY6DQDa46CA4Lfi0qsUytcq2YId4=",
-        "owner": "vicnotor",
+        "owner": "vicgeentor",
         "repo": "nix-devshells",
         "rev": "13b3f246e165e4983e2525777eca910e228f5f07",
         "type": "github"
       },
       "original": {
-        "owner": "vicnotor",
+        "owner": "vicgeentor",
         "repo": "nix-devshells",
         "type": "github"
       }

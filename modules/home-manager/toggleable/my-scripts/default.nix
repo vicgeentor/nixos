@@ -11,7 +11,7 @@
   config = lib.mkIf config.my-scriptsModule.enable {
     home = {
       file = {
-        ".local/bin".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/Git/vicnotor/nixos/modules/home-manager/toggleable/my-scripts";
+        ".local/bin".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/Git/vicgeentor/nixos/modules/home-manager/toggleable/my-scripts";
       };
     };
   };

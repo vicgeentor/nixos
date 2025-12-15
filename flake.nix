@@ -1,5 +1,5 @@
 {
-  description = "vicnotor's NixOS config";
+  description = "vicgeentor's NixOS config";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -18,7 +18,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-devshells = {
-      url = "github:vicnotor/nix-devshells";
+      url = "github:vicgeentor/nix-devshells";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-index-database = {

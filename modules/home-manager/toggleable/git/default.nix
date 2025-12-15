@@ -13,7 +13,7 @@
       enable = true;
       settings = {
         user = {
-          name = "vicnotor";
+          name = "vicgeentor";
           email = "victenbokum@gmail.com";
         };
         core = {editor = "nvim";};

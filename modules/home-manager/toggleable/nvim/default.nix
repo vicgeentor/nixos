@@ -22,7 +22,7 @@
         yarn
       ];
       file = {
-        ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/Git/vicnotor/nixos/modules/home-manager/toggleable/nvim";
+        ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/Git/vicgeentor/nixos/modules/home-manager/toggleable/nvim";
       };
     };
   };

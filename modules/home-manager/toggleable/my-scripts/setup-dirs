@@ -16,8 +16,8 @@ if [ ! -d ~/Git/web ]; then
   mkdir -p ~/Git/web
 fi
 
-if [ ! -d ~/Git/vicnotor ]; then
-  mkdir -p ~/Git/vicnotor
+if [ ! -d ~/Git/vicgeentor ]; then
+  mkdir -p ~/Git/vicgeentor
 fi
 
 if [ ! -d ~/mnt/windows ]; then

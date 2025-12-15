@@ -17,7 +17,7 @@
         pkgs.kdePackages.qtdeclarative # Contains qmlls and qmllint
       ];
       file = {
-        ".config/quickshell".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/Git/vicnotor/nixos/modules/home-manager/toggleable/quickshell/config";
+        ".config/quickshell".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/Git/vicgeentor/nixos/modules/home-manager/toggleable/quickshell/config";
       };
     };
     qt.enable = true;

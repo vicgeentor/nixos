@@ -14,7 +14,7 @@ in {
 
   config = lib.mkIf config.hyprModule.enable {
     home.file = {
-      ".config/hypr".source = config.lib.file.mkOutOfStoreSymlink "${home}/Git/vicnotor/nixos/modules/home-manager/toggleable/hypr";
+      ".config/hypr".source = config.lib.file.mkOutOfStoreSymlink "${home}/Git/vicgeentor/nixos/modules/home-manager/toggleable/hypr";
     };
 
     home.packages = with pkgs; [

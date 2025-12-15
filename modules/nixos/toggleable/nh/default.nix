@@ -11,7 +11,7 @@
   config = lib.mkIf config.nhModule.enable {
     programs.nh = {
       enable = true;
-      flake = "/home/vic/Git/vicnotor/nixos";
+      flake = "/home/vic/Git/vicgeentor/nixos";
     };
   };
 }

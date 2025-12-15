@@ -24,7 +24,7 @@
 
   # NixOS
   rebuild = "nh os switch";
-  update = "nix flake update --flake ~/Git/vicnotor/nixos";
+  update = "nix flake update --flake ~/Git/vicgeentor/nixos";
   clean = "nh clean all --keep 10";
   optimise = "sudo nix-store --optimise --verbose"; # If both garbage collecting and optimising, run this after garbage collecting
 
@@ -43,7 +43,7 @@
   hibernate = "systemctl hibernate";
   goto = "source";
   open = "xdg-open";
-  valias = "vim $HOME/Git/vicnotor/nixos/modules/home-manager/toggleable/zsh/aliases.nix";
+  valias = "vim $HOME/Git/vicgeentor/nixos/modules/home-manager/toggleable/zsh/aliases.nix";
   # view = "app2unit -- qimgv";
   view = "qimgv";
   ev = "silent evince";
@@ -55,10 +55,10 @@
   # godot = "app2unit -- godot4 --display-driver wayland";
   godot = "godot4 --display-driver wayland";
   batterystatus = "acpi";
-  vpak = "nvim $HOME/Git/vicnotor/nixos/modules/home-manager/always/packages/default.nix";
-  vrpak = "nvim $HOME/Git/vicnotor/nixos/modules/home-manager/toggleable/r/default.nix";
-  vospak = "nvim $HOME/Git/vicnotor/nixos/modules/nixos/always/packages/default.nix";
-  vlib = "nvim $HOME/Git/vicnotor/nixos/modules/nixos/toggleable/nix-ld/libraries.nix";
+  vpak = "nvim $HOME/Git/vicgeentor/nixos/modules/home-manager/always/packages/default.nix";
+  vrpak = "nvim $HOME/Git/vicgeentor/nixos/modules/home-manager/toggleable/r/default.nix";
+  vospak = "nvim $HOME/Git/vicgeentor/nixos/modules/nixos/always/packages/default.nix";
+  vlib = "nvim $HOME/Git/vicgeentor/nixos/modules/nixos/toggleable/nix-ld/libraries.nix";
   screenrec = "wl-screenrec --low-power off --audio";
   screenrec-history = "wl-screenrec --low-power off --audio --history 30 &";
   screenrec-history-get = "killall -USR1 wl-screenrec";
