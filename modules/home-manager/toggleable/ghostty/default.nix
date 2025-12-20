@@ -15,19 +15,20 @@
       enable = true;
       package = inputs.ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default;
       enableZshIntegration = true;
+      systemd.enable = true;
       settings = {
         # Font
         font-size = 14;
-        # The next three lines disable all ligatures
-        font-feature = [
-          "-calt"
-          "-liga"
-          "-dlig"
-        ];
+        # font-feature = [
+        #   # The next three lines disable all ligatures
+        #   "-calt"
+        #   "-liga"
+        #   "-dlig"
+        # ];
         bold-color = "bright"; # Bold text will use the bright color palette
 
         # Theme
-        theme = "rose-pine";
+        theme = "Rose Pine";
         background = "#0F0F0F";
 
         # Cursor
@@ -36,6 +37,8 @@
         shell-integration-features = "no-cursor";
 
         # Window
+        window-padding-x = 6;
+        window-padding-y = 6;
         window-padding-balance = true;
         window-decoration = false;
         window-width = 100;

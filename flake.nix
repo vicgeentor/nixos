@@ -37,10 +37,10 @@
       url = "github:nix-community/disko";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    ghostty.url = "github:ghostty-org/ghostty";
 
     # Might use in future:
     # nixpkgs-stable.url = "github:NixOS/nixpkgs?ref=nixos-25.05";
-    # ghostty.url = "github:ghostty-org/ghostty";
     # wezterm = {
     #   url = "github:wezterm/wezterm?dir=nix";
     #   inputs.nixpkgs.follows = "nixpkgs";

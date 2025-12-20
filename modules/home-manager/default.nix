@@ -54,6 +54,7 @@
   extraDotfilesModule.enable = lib.mkDefault true;
   fastfetchModule.enable = lib.mkDefault true;
   fzfModule.enable = lib.mkDefault true;
+  ghosttyModule.enable = lib.mkDefault true;
   gitModule.enable = lib.mkDefault true;
   hyprModule.enable = lib.mkDefault true;
   jsModule.enable = lib.mkDefault true;
@@ -78,7 +79,6 @@
 
   # Disabled by default
   caelestiaModule.enable = lib.mkDefault false;
-  ghosttyModule.enable = lib.mkDefault false;
   gtkModule.enable = lib.mkDefault false; # Not needed because of Stylix
   htopModule.enable = lib.mkDefault false;
   pointerCursorModule.enable = lib.mkDefault false; # Not needed because of Stylix
