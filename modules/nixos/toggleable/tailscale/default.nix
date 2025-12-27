@@ -24,7 +24,7 @@
     # Prevent autostart of tailscale
     # systemd.services.tailscaled.wantedBy = lib.mkForce [];
 
-    # Start and stop comment
+    # Start and stop command
     environment.systemPackages = [
       (pkgs.writeShellScriptBin "tailscale-start" ''
         sudo systemctl start tailscaled

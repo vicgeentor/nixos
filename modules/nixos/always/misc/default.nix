@@ -14,11 +14,4 @@
   };
 
   hardware.enableAllFirmware = true;
-
-  # Mounting SATA drive
-  # fileSystems."/home/vic/mnt/sata" = {
-  #   device = "/dev/disk/by-label/SATA";
-  #   fsType = "ntfs-3g";
-  #   options = ["rw" "uid=1000"];
-  # };
 }
