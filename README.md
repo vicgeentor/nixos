@@ -1,4 +1,7 @@
-# My NixOS config
+> [!WARNING]
+> Moved my whole nix config to [vicgeentor/Ooo](https://github.com/vicgeentor/Ooo)
+
+# My old NixOS config
 
 \<3 nix
 
